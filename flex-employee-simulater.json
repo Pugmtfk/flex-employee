@@ -1,0 +1,989 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "พนักงานยอดเยี่ยม",
+            "size": "20px",
+            "weight": "bold",
+            "color": "#FFFFFF",
+            "offsetStart": "15px"
+          },
+          {
+            "type": "text",
+            "text": "ประจำแคมเปญ",
+            "size": "20px",
+            "color": "#ffffff",
+            "weight": "bold",
+            "offsetStart": "15px"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1153812123529531472/Group_6667.png",
+        "position": "absolute",
+        "size": "62px",
+        "offsetStart": "207px",
+        "offsetTop": "26px"
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1153812913249865778/Union.png",
+        "position": "absolute",
+        "size": "115px",
+        "offsetStart": "182px",
+        "offsetBottom": "-6px"
+      }
+    ],
+    "height": "88px",
+    "background": {
+      "type": "linearGradient",
+      "angle": "270deg",
+      "startColor": "#71CA00",
+      "endColor": "#01A713"
+    },
+    "justifyContent": "center"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ลำดับ",
+            "size": "12px",
+            "color": "#A8AAAE",
+            "weight": "bold",
+            "offsetStart": "15px",
+            "align": "start",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "ข้อมูล :",
+            "color": "#979797",
+            "size": "12px",
+            "gravity": "center",
+            "weight": "bold",
+            "offsetStart": "64px"
+          },
+          {
+            "type": "text",
+            "text": "15 มกราคม 66",
+            "color": "#222222",
+            "weight": "bold",
+            "size": "12px",
+            "gravity": "center",
+            "offsetStart": "7px"
+          }
+        ],
+        "height": "34px",
+        "backgroundColor": "#F3F3F5"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://media.discordapp.net/attachments/1130113229700477089/1153823869157789736/Group_6598.png",
+                "position": "absolute",
+                "offsetBottom": "28px",
+                "size": "20px",
+                "offsetTop": "23px"
+              },
+              {
+                "type": "text",
+                "text": "1",
+                "align": "center",
+                "color": "#ffffff",
+                "size": "12px",
+                "weight": "bold"
+              }
+            ],
+            "width": "20px",
+            "height": "70px",
+            "justifyContent": "center",
+            "offsetStart": "15px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://media.discordapp.net/attachments/1130113229700477089/1153819299958505492/Ellipse_242.png"
+                  }
+                ],
+                "cornerRadius": "320px",
+                "width": "50px",
+                "height": "50px"
+              },
+              {
+                "type": "text",
+                "text": "John Doe",
+                "color": "#FF3333",
+                "size": "12px",
+                "weight": "bold"
+              }
+            ],
+            "width": "70px",
+            "height": "70px",
+            "offsetStart": "35px",
+            "alignItems": "center",
+            "paddingTop": "5px",
+            "paddingBottom": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ขาย",
+                    "size": "12px",
+                    "color": "#A8AAAE",
+                    "align": "center"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": []
+                  },
+                  {
+                    "type": "text",
+                    "text": "เป้า",
+                    "align": "center",
+                    "size": "12px",
+                    "color": "#A8AAAE"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "14",
+                    "size": "19px",
+                    "color": "#373737",
+                    "weight": "bold",
+                    "align": "center"
+                  },
+                  {
+                    "type": "text",
+                    "text": "/",
+                    "size": "18px",
+                    "color": "#373737",
+                    "align": "center"
+                  },
+                  {
+                    "type": "text",
+                    "text": "20",
+                    "size": "19px",
+                    "color": "#373737",
+                    "weight": "bold",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "ร้านค้า",
+                "size": "12px",
+                "color": "#A8AAAE",
+                "weight": "bold",
+                "align": "center"
+              }
+            ],
+            "width": "70px",
+            "height": "70px",
+            "offsetStart": "54px",
+            "paddingTop": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [],
+            "width": "1px",
+            "height": "40px",
+            "backgroundColor": "#F3F3F5",
+            "offsetStart": "65px",
+            "offsetTop": "16px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "อัตราส่วน",
+                "size": "12px",
+                "color": "#A8AAAE",
+                "align": "end"
+              },
+              {
+                "type": "text",
+                "text": "70 %",
+                "size": "19px",
+                "color": "#0057DD",
+                "weight": "bold",
+                "align": "end"
+              }
+            ],
+            "width": "60px",
+            "height": "70px",
+            "offsetStart": "63px",
+            "paddingTop": "5px"
+          }
+        ],
+        "height": "73px",
+        "width": "300px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://media.discordapp.net/attachments/1130113229700477089/1153836531597975552/Group_6598_1.png",
+                "position": "absolute",
+                "offsetBottom": "28px",
+                "size": "20px",
+                "offsetTop": "23px"
+              },
+              {
+                "type": "text",
+                "text": "2",
+                "align": "center",
+                "color": "#ffffff",
+                "size": "12px",
+                "weight": "bold"
+              }
+            ],
+            "width": "20px",
+            "height": "70px",
+            "justifyContent": "center",
+            "offsetStart": "15px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://media.discordapp.net/attachments/1130113229700477089/1153819299958505492/Ellipse_242.png"
+                  }
+                ],
+                "cornerRadius": "320px",
+                "width": "50px",
+                "height": "50px"
+              },
+              {
+                "type": "text",
+                "text": "John Doe",
+                "color": "#FF3333",
+                "size": "12px",
+                "weight": "bold"
+              }
+            ],
+            "width": "70px",
+            "height": "70px",
+            "offsetStart": "35px",
+            "alignItems": "center",
+            "paddingTop": "5px",
+            "paddingBottom": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ขาย",
+                    "size": "12px",
+                    "color": "#A8AAAE",
+                    "align": "center"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": []
+                  },
+                  {
+                    "type": "text",
+                    "text": "เป้า",
+                    "align": "center",
+                    "size": "12px",
+                    "color": "#A8AAAE"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "8",
+                    "size": "19px",
+                    "color": "#373737",
+                    "weight": "bold",
+                    "align": "center"
+                  },
+                  {
+                    "type": "text",
+                    "text": "/",
+                    "size": "18px",
+                    "color": "#373737",
+                    "align": "center"
+                  },
+                  {
+                    "type": "text",
+                    "text": "20",
+                    "size": "19px",
+                    "color": "#373737",
+                    "weight": "bold",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "ร้านค้า",
+                "size": "12px",
+                "color": "#A8AAAE",
+                "weight": "bold",
+                "align": "center"
+              }
+            ],
+            "width": "70px",
+            "height": "70px",
+            "offsetStart": "54px",
+            "paddingTop": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [],
+            "width": "1px",
+            "height": "40px",
+            "backgroundColor": "#F3F3F5",
+            "offsetStart": "65px",
+            "offsetTop": "16px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "อัตราส่วน",
+                "size": "12px",
+                "color": "#A8AAAE",
+                "align": "end"
+              },
+              {
+                "type": "text",
+                "text": "40 %",
+                "size": "19px",
+                "color": "#0057DD",
+                "weight": "bold",
+                "align": "end"
+              }
+            ],
+            "width": "60px",
+            "height": "70px",
+            "offsetStart": "63px",
+            "paddingTop": "5px"
+          }
+        ],
+        "height": "73px",
+        "width": "300px",
+        "backgroundColor": "#F8F8FF"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://media.discordapp.net/attachments/1130113229700477089/1153836812628918313/Group_6598_2.png",
+                "position": "absolute",
+                "offsetBottom": "28px",
+                "size": "20px",
+                "offsetTop": "23px"
+              },
+              {
+                "type": "text",
+                "text": "3",
+                "align": "center",
+                "color": "#ffffff",
+                "size": "12px",
+                "weight": "bold"
+              }
+            ],
+            "width": "20px",
+            "height": "70px",
+            "justifyContent": "center",
+            "offsetStart": "15px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://media.discordapp.net/attachments/1130113229700477089/1153819299958505492/Ellipse_242.png"
+                  }
+                ],
+                "cornerRadius": "320px",
+                "width": "50px",
+                "height": "50px"
+              },
+              {
+                "type": "text",
+                "text": "John Doe",
+                "color": "#FF3333",
+                "size": "12px",
+                "weight": "bold"
+              }
+            ],
+            "width": "70px",
+            "height": "70px",
+            "offsetStart": "35px",
+            "alignItems": "center",
+            "paddingTop": "5px",
+            "paddingBottom": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ขาย",
+                    "size": "12px",
+                    "color": "#A8AAAE",
+                    "align": "center"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": []
+                  },
+                  {
+                    "type": "text",
+                    "text": "เป้า",
+                    "align": "center",
+                    "size": "12px",
+                    "color": "#A8AAAE"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "6",
+                    "size": "19px",
+                    "color": "#373737",
+                    "weight": "bold",
+                    "align": "center"
+                  },
+                  {
+                    "type": "text",
+                    "text": "/",
+                    "size": "18px",
+                    "color": "#373737",
+                    "align": "center"
+                  },
+                  {
+                    "type": "text",
+                    "text": "20",
+                    "size": "19px",
+                    "color": "#373737",
+                    "weight": "bold",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "ร้านค้า",
+                "size": "12px",
+                "color": "#A8AAAE",
+                "weight": "bold",
+                "align": "center"
+              }
+            ],
+            "width": "70px",
+            "height": "70px",
+            "offsetStart": "54px",
+            "paddingTop": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [],
+            "width": "1px",
+            "height": "40px",
+            "backgroundColor": "#F3F3F5",
+            "offsetStart": "65px",
+            "offsetTop": "16px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "อัตราส่วน",
+                "size": "12px",
+                "color": "#A8AAAE",
+                "align": "end"
+              },
+              {
+                "type": "text",
+                "text": "30 %",
+                "size": "19px",
+                "color": "#0057DD",
+                "weight": "bold",
+                "align": "end"
+              }
+            ],
+            "width": "60px",
+            "height": "70px",
+            "offsetStart": "63px",
+            "paddingTop": "5px"
+          }
+        ],
+        "height": "73px",
+        "width": "300px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "4",
+                "align": "center",
+                "color": "#A8AAAE",
+                "size": "12px",
+                "weight": "bold"
+              }
+            ],
+            "width": "20px",
+            "height": "70px",
+            "justifyContent": "center",
+            "offsetStart": "15px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://media.discordapp.net/attachments/1130113229700477089/1153819299958505492/Ellipse_242.png"
+                  }
+                ],
+                "cornerRadius": "320px",
+                "width": "50px",
+                "height": "50px"
+              },
+              {
+                "type": "text",
+                "text": "John Doe",
+                "color": "#FF3333",
+                "size": "12px",
+                "weight": "bold"
+              }
+            ],
+            "width": "70px",
+            "height": "70px",
+            "offsetStart": "35px",
+            "alignItems": "center",
+            "paddingTop": "5px",
+            "paddingBottom": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ขาย",
+                    "size": "12px",
+                    "color": "#A8AAAE",
+                    "align": "center"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": []
+                  },
+                  {
+                    "type": "text",
+                    "text": "เป้า",
+                    "align": "center",
+                    "size": "12px",
+                    "color": "#A8AAAE"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "4",
+                    "size": "19px",
+                    "color": "#373737",
+                    "weight": "bold",
+                    "align": "center"
+                  },
+                  {
+                    "type": "text",
+                    "text": "/",
+                    "size": "18px",
+                    "color": "#373737",
+                    "align": "center"
+                  },
+                  {
+                    "type": "text",
+                    "text": "20",
+                    "size": "19px",
+                    "color": "#373737",
+                    "weight": "bold",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "ร้านค้า",
+                "size": "12px",
+                "color": "#A8AAAE",
+                "weight": "bold",
+                "align": "center"
+              }
+            ],
+            "width": "70px",
+            "height": "70px",
+            "offsetStart": "54px",
+            "paddingTop": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [],
+            "width": "1px",
+            "height": "40px",
+            "backgroundColor": "#F3F3F5",
+            "offsetStart": "64px",
+            "offsetTop": "16px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "อัตราส่วน",
+                "size": "12px",
+                "color": "#A8AAAE",
+                "align": "end"
+              },
+              {
+                "type": "text",
+                "text": "20 %",
+                "size": "19px",
+                "color": "#0057DD",
+                "weight": "bold",
+                "align": "end"
+              }
+            ],
+            "width": "60px",
+            "height": "70px",
+            "offsetStart": "63px",
+            "paddingTop": "5px"
+          }
+        ],
+        "height": "73px",
+        "width": "300px",
+        "backgroundColor": "#F8F8FF"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "5",
+                "align": "center",
+                "color": "#A8AAAE",
+                "size": "12px",
+                "weight": "bold"
+              }
+            ],
+            "width": "20px",
+            "height": "70px",
+            "justifyContent": "center",
+            "offsetStart": "15px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://media.discordapp.net/attachments/1130113229700477089/1153819299958505492/Ellipse_242.png"
+                  }
+                ],
+                "cornerRadius": "320px",
+                "width": "50px",
+                "height": "50px"
+              },
+              {
+                "type": "text",
+                "text": "John Doe",
+                "color": "#FF3333",
+                "size": "12px",
+                "weight": "bold"
+              }
+            ],
+            "width": "70px",
+            "height": "70px",
+            "offsetStart": "35px",
+            "alignItems": "center",
+            "paddingTop": "5px",
+            "paddingBottom": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ขาย",
+                    "size": "12px",
+                    "color": "#A8AAAE",
+                    "align": "center"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": []
+                  },
+                  {
+                    "type": "text",
+                    "text": "เป้า",
+                    "align": "center",
+                    "size": "12px",
+                    "color": "#A8AAAE"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "2",
+                    "size": "19px",
+                    "color": "#373737",
+                    "weight": "bold",
+                    "align": "center"
+                  },
+                  {
+                    "type": "text",
+                    "text": "/",
+                    "size": "18px",
+                    "color": "#373737",
+                    "align": "center"
+                  },
+                  {
+                    "type": "text",
+                    "text": "20",
+                    "size": "19px",
+                    "color": "#373737",
+                    "weight": "bold",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "ร้านค้า",
+                "size": "12px",
+                "color": "#A8AAAE",
+                "weight": "bold",
+                "align": "center"
+              }
+            ],
+            "width": "70px",
+            "height": "70px",
+            "offsetStart": "54px",
+            "paddingTop": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [],
+            "width": "1px",
+            "height": "40px",
+            "backgroundColor": "#F3F3F5",
+            "offsetStart": "65px",
+            "offsetTop": "16px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "อัตราส่วน",
+                "size": "12px",
+                "color": "#A8AAAE",
+                "align": "end"
+              },
+              {
+                "type": "text",
+                "text": "10 %",
+                "size": "19px",
+                "color": "#0057DD",
+                "weight": "bold",
+                "align": "end"
+              }
+            ],
+            "width": "60px",
+            "height": "70px",
+            "offsetStart": "63px",
+            "paddingTop": "5px"
+          }
+        ],
+        "height": "73px",
+        "width": "300px"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "height": "1px",
+        "backgroundColor": "#F3F3F5"
+      }
+    ],
+    "paddingAll": "0px"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "ดูรายละเอียด",
+          "uri": "http://linecorp.com/"
+        },
+        "style": "primary",
+        "offsetTop": "2px"
+      },
+      {
+        "type": "text",
+        "text": "BOT",
+        "flex": 0,
+        "size": "8px",
+        "color": "#417BD9",
+        "align": "end",
+        "offsetTop": "5px"
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1153838366572413001/Layer_1-3_2__1.png",
+        "position": "absolute",
+        "size": "20px",
+        "offsetTop": "64px",
+        "offsetStart": "250px"
+      }
+    ]
+  }
+}
